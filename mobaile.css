@@ -1,0 +1,15 @@
+/* responsive desgin */
+
+.nav-links{
+    display: none;
+}
+.btn{
+    display: none;
+}
+.icon{
+    display: block;
+}
+.about{
+    flex-direction: column;
+    
+}

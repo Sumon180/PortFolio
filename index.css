@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gray;
+}
+.arrow{
+    color: blue;
+    font-size: 2rem;
+    position: fixed;
+    left: 870px;
+    top: 500px;
+    display: none;
+}
+
+
+/* id for js */
+.arrow.active{
+    display: block;
+}
+
+li,a,button{
+    text-decoration: none;
+    color: white;
+    
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: #87b387; */
+}
+.logo{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: auto;
+    transition: 0.3s;
+}
+.logo:hover{
+    color: #4a964a;
+}
+.hossain{
+    color: #4a964a;
+}
+
+.icon{
+    color: lightgray;
+    font-size: 25px;
+    margin: 0 20px;
+    padding: 6px 10px;
+    display: none;
+    transition: .5s;
+}
+.icon:hover{
+    color: green;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-links li a{
+    margin: 0 15px;
+    font-size: 20px;
+    transition: .3s;
+    
+}
+.nav-links li a:hover{
+    color: #4a964a;
+    border:2px solid gray;
+    padding: 4px;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    background-color: green;
+    margin: 0 20px;
+    padding: 6px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+button:hover{
+    background-color: #4a964a;
+    color: black;
+}
+
+
+.bg_img{
+    background-image: url('bg.jpg');
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg_img h3{
+    text-align: center;
+    color: lightgray;
+    padding-top: 250px;
+    font-size: 2.5rem;
+}
+
+/* float Clear */
+
+.bg_img::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
+.skills{
+    text-align: center;
+    padding: 20px;
+}
+.skill{
+  margin-top: 10px;
+}
+hr{
+    margin: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.box{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+.box_front{
+    width: 250px;
+    height: 250px;
+    background: #4a964a;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 15px black;
+
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 1s linear;
+}
+.box:hover .box_front{
+    transform: rotateY(-180deg);
+}
+
+.box_back{
+    width: 250px;
+    height: 250px;
+    background: #08b3d1;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 15px black;
+
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 1s linear;
+}
+.box:hover .box_back{
+    transform: rotateY(0deg);
+}
+
+
+.box_front2{
+    width: 250px;
+    height: 250px;
+    background: #4a964a;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 15px black;
+
+    transform: rotateX(0deg);
+    backface-visibility: hidden;
+    transition: transform 1s linear;
+}
+.box:hover .box_front2{
+    transform: rotateX(-180deg);
+}
+
+.box_back2{
+    width: 250px;
+    height: 250px;
+    background: salmon;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 15px black;
+
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 1s linear;
+}
+.box:hover .box_back2{
+    transform: rotateX(0deg);
+}
+
+
+.box_front3{
+    width: 250px;
+    height: 250px;
+    background: #4a964a;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 15px black;
+
+    transform: rotateX(0deg);
+    backface-visibility: hidden;
+    transition: transform 1s linear;
+}
+.box:hover .box_front3{
+    transform: rotateX(-180deg);
+}
+
+.box_back3{
+    width: 250px;
+    height: 250px;
+    background: #29a58a;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 15px black;
+
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 1s linear;
+}
+.box:hover .box_back3{
+    transform: rotateX(0deg);
+}
