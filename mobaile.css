@@ -13,3 +13,13 @@
     flex-direction: column;
     
 }
+.search input{
+    display: none;
+}
+.search2{
+    display: block;
+    text-align: center;
+}
+.bg_img .banner{
+    margin-top: 100px;
+}
