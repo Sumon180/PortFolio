@@ -2,10 +2,11 @@
 
 
 .nav-links{
-    display: none;
-}
-.icon{
     display: block;
+}
+.navbar_div .icon{
+    display: block;
+    margin-left: 15px;
 }
 
 

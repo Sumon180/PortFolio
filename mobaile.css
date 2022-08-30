@@ -1,15 +1,59 @@
 /* responsive desgin */
 
-.nav-links{
-    display: none;
-}
-.btn{
-    display: none;
-}
-.icon{
+.nav-toggler{
     display: block;
 }
+.header .nav{
+    width: 100%;
+    padding: 0;
+    max-height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+.header .nav.open{
+    visibility: visible;
+}
+.header .nav ul{
+    padding: 12px 15px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 12px;
+}
+.header .nav ul li{
+    display: block;
+    margin: 0;
+}
+
+
+/* .btn{
+    display: none;
+}
+.navbar_div .icon{
+    display: block;
+    margin-right: 20px;
+}
+.navbar_div header{
+    flex-direction: column;
+}
+.navbar_div nav{
+   width: 100%;
+    
+}
+.navbar_div nav ul{
+    flex-direction: column;
+}
+.navbar_div nav ul li{
+    display: block;
+    margin: 0;
+} */
 .about{
+    flex-direction: column;
+    
+}
+.about .description{
+    text-align: center;
+}
+.skill_div{
     flex-direction: column;
     
 }
@@ -20,6 +64,8 @@
     display: block;
     text-align: center;
 }
-.bg_img .banner{
-    margin-top: 100px;
+.bg_img .banner-text{
+    margin-top: 50px;
+    
+    margin-left: 40px;
 }
