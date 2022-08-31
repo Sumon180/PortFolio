@@ -52,7 +52,7 @@ body{
     /* overflow-x: hidden; */
 }
 
-
+/* **************************BANNER********************** */
 .bg_img{
     background-image: url('images/bg.jpg');
     height: 100vh;
@@ -143,9 +143,9 @@ body{
 
 .arrow i{
     color: var(--color-primary);
-    background: white;
-    border-radius: 50%;
-    padding: 5px;
+    background: rgb(255, 255, 255,.5);
+    border-radius: 5px;
+    padding: 7px;
     font-size: 1.5rem;
     position: fixed;
     
@@ -170,7 +170,7 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 800px;
+    width: 100%;
     margin: auto;
 }
 .row{
@@ -517,27 +517,46 @@ a{
 
 /* ****************************FOOTER START*********************** */
 .footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: rgb(47, 50, 64);
-    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 60px;
 }
 
 .footer .title{
     color: white;
-    margin: 0 auto;
+   
 }
-
-.footer .link{
+.footer .help{
+    color: white;
+}
+.footer .help .underline{
+    width: 70%;
+    margin: 0;
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: var(--color-danger);
+}
+.footer .contact h3{
+    color: white;
+}
+.footer .contact .underline{
+    width: 40%;
+    margin: 0;
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: var(--color-danger);
+}
+.footer .contact .link{
     display: flex;
     gap: 30px;
-    margin: 0 auto;
 }
-.footer .link li a{
+.footer .contact .link li{
     background: white;
     padding: 7px;
     border-radius: 50%;
-    color: #1298F6;
     font-size: 20px;
 }

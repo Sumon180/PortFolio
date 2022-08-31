@@ -49,3 +49,14 @@
     
     margin-left: 40px;
 }
+
+/* **************************FOOTER************************** */
+.footer{
+    flex-direction: column;
+}
+.footer .title{
+    margin-bottom: 2rem;
+}
+.footer .help{
+    margin-bottom: 2rem;
+}

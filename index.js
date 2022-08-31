@@ -1,5 +1,5 @@
 
-
+//*************************ARROW*************************** */
 let arrow = document.getElementById('uparrow');
 
 window.onscroll = function(){
@@ -14,6 +14,7 @@ window.onscroll = function(){
     }
 }
 
+//*************************NAVBAR TOGGLAR*********************** */
 const navToggler = document.querySelector('.nav-toggler');
 
 navToggler.addEventListener("click", navToggle);
