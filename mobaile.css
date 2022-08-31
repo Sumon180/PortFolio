@@ -25,27 +25,7 @@
 }
 
 
-/* .btn{
-    display: none;
-}
-.navbar_div .icon{
-    display: block;
-    margin-right: 20px;
-}
-.navbar_div header{
-    flex-direction: column;
-}
-.navbar_div nav{
-   width: 100%;
-    
-}
-.navbar_div nav ul{
-    flex-direction: column;
-}
-.navbar_div nav ul li{
-    display: block;
-    margin: 0;
-} */
+
 .about{
     flex-direction: column;
     

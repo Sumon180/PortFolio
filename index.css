@@ -51,24 +51,11 @@ body{
     user-select: none;
     /* overflow-x: hidden; */
 }
-/* .arrow{
-    color: blue;
-    font-size: 2rem;
-    position: fixed;
-    left: 870px;
-    top: 500px;
-    display: none;
-} */
 
-
-/* id for js
-.arrow.active{
-    display: block;
-}  */
 
 .bg_img{
     background-image: url('images/bg.jpg');
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,6 +141,26 @@ body{
     
 }
 
+.arrow i{
+    color: var(--color-primary);
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1.5rem;
+    position: fixed;
+    
+    right: 20px;
+    bottom: 20px;
+    z-index: 22;
+    display: none;
+}
+.arrow.active i{
+    display: block;
+}
+/* id for js */
+.arrow.active{
+    display: block;
+}
 
 /*********************BANNER END*********************** */
 ul{
@@ -513,7 +520,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(27, 27, 27);
+    background: rgb(47, 50, 64);
     padding: 40px 0;
 }
 
@@ -531,9 +538,6 @@ a{
     background: white;
     padding: 7px;
     border-radius: 50%;
-    color: white;
-    font-size: 20px;
-}
-.footer .link li a:first-child{
     color: #1298F6;
+    font-size: 20px;
 }
