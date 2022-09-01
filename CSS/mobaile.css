@@ -37,6 +37,10 @@
     flex-direction: column;
     
 }
+.about .description .underline{
+    margin: auto;
+    width: 40%;
+}
 .search input{
     display: none;
 }

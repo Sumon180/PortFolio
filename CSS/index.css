@@ -54,13 +54,16 @@ body{
 
 /* **************************BANNER********************** */
 .bg_img{
-    background-image: url('images/bg.jpg');
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    background-position: center;
+    /* background-image: url(''); */
+    /* height: 100vh; */
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .bg_img .banner-text{
@@ -127,7 +130,7 @@ body{
     padding: 10px;
     width: 300px;
     border-radius: 5px;
-    background-image: url('images/search.png');
+    background-image: url('');
     background-repeat: no-repeat;
     text-align: start;
     padding-left: 30px;
@@ -181,7 +184,7 @@ a{
     align-items: center;
 }
 .justify-content-between{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* header */
@@ -306,7 +309,7 @@ a{
 }
 
 .about .description{
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     text-align: left;
     letter-spacing: 1px;
@@ -314,6 +317,14 @@ a{
 
 .about .description h2{
     font-weight: bold;
+}
+
+.about .description .underline{
+    width: 20%;
+    margin: 0;
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: var(--color-danger);
 }
 
 .about .description button{
