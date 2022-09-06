@@ -10,7 +10,7 @@
     --color-info-light: #dce1eb;
     --color-dark: #363949;
     --color-light: rgba(132,139,200,0.18);
-    --color-primary-varient: #111e88;
+    --color-primary-varient: #5372f0;
     --color-dark-varient: #677483;
     --color-background: #F2F3F3;
     --color-Soft: lightgray;
@@ -36,7 +36,7 @@
     outline: 0;
     appearance: none;
     border: 0;
-       
+    scroll-behavior: smooth;
 }
 
 html{
@@ -58,7 +58,7 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    /* background-image: url(''); */
+    /* background-image: url('images/features-2.svg'); */
     /* height: 100vh; */
     /* background-position: center;
     background-repeat: no-repeat;
@@ -94,9 +94,7 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 4px 4px var(--color-primary);
-    animation-name: hirebutton;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation: hirebutton 2s infinite;
 }
 .bg_img .banner-text input:hover{
     background-color: var(--color-dark);
@@ -107,7 +105,7 @@ body{
 
 
 @keyframes hirebutton {
-    0%{
+    0%{        
         color: white;
     }
     50%{
@@ -116,6 +114,7 @@ body{
     100%{
         color: white;
     }
+    
     
 }
 
@@ -555,7 +554,7 @@ a{
     color: white;
 }
 .footer .contact .underline{
-    width: 40%;
+    width: 25%;
     margin: 0;
     margin-bottom: 5px;
     height: 2px;
@@ -565,9 +564,16 @@ a{
     display: flex;
     gap: 30px;
 }
-.footer .contact .link li{
-    background: white;
+.footer .contact .link li a i{
+    
+    background: rgb(66, 70, 90);
     padding: 7px;
+    color: var(--color-primary-varient);
     border-radius: 50%;
     font-size: 20px;
+    transition: all 0.3s ease;
+}
+.footer .contact .link li a i:hover{
+    background: white;
+    color: var(--color-danger);
 }
