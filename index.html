@@ -36,10 +36,10 @@
                         <div class="nav">
                             <ul>
                                 <li><a href="#" class="active">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Skill</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#aboutId">About</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#skillsId">Skill</a></li>
+                                <li><a href="#footer">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -62,13 +62,15 @@
         <!-- ------------------------------ABOUT START----------------------------- -->
 
 
-        <div class="about">
+        <div class="about" id="aboutId">
             <div class="profile-pic">
                 <img src="images/Img.jpg" alt="">
             </div>
             <div class="description">
-                <h2>About Me</h2>
-                <div class="underline"></div>
+                <div class="title">
+                    <h2>About Me</h2>
+                    <div class="underline"></div>
+                </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores quasi cumque laudantium, fugiat accusamus veritatis est expedita reprehenderit dolorum dolorem magni distinctio in impedit itaque sequi. Aliquid, delectus aliquam. Esse, omnis quisquam cumque sit quaerat enim fugiat repellat quidem, consequuntur provident nisi quod. Delectus nemo doloremque qui quas autem voluptatibus! Est iste maiores eos perspiciatis corrupti magni accusantium, ut atque nobis dolores vero. Adipisci pariatur excepturi ea, sapiente qui necessitatibus consequuntur eligendi velit minima repudiandae perspiciatis, est ipsa ratione quasi iure, dolorem ab reiciendis sint cupiditate quos animi obcaecati. Aliquam perferendis voluptatibus, rerum numquam soluta dolores quisquam repellendus obcaecati corrupti.</p>
                 <button>Dounload CV</button>
                 <button>Visit Site</button>
@@ -78,9 +80,8 @@
     
     
         <!-- ---------------------------SKILL START ----------------------------- -->
-        <div class="skills">
-            <h1 class="skill">Skills</h1>
-           ..................................................................................................................................................................................................................................................
+        <div class="skills" id="skillsId">
+            <h1 class="skill">Skills</h1>           
             <div class="skill_div">
                 <div class="box">
                   <div class="box_front">
@@ -97,9 +98,10 @@
                         BOOTSTRAP-5
                         <div class="underline"></div>
                     </div>
-                    <div class="box_back2">REACT.JS
+                    <div class="box_back2">
+                        REACT.JS
                         <div class="underline"></div></div>
-                </div>
+                    </div>
                 <div class="box">
                     <div class="box_front3">
                         NODE.JS
@@ -112,17 +114,86 @@
                 </div>
             </div>
         </div>
-    
-    
-        <div class="animation-div">
-            <div class="anim-row">
-                <div class="anim-box">
-                    SUMON
+
+
+        <!-- ---------------------------SERVICE SECTION ----------------------------- -->
+        <div class="service" id="service">
+            <h1>service</h1>
+            <div class="services">
+                <div class="servicebox">
+                  <div class="card_1">
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores optio eos sint architecto neque. Ab cumque voluptates quidem sit.</p>
+                  </div>
+                </div>
+                <div class="servicebox">
+                    <div class="card_1">
+                        <h2>Advice</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores optio eos sint architecto neque. Ab cumque voluptates quidem sit.</p>
+                    </div>
+                </div>
+                <div class="servicebox">
+                    <div class="card_1">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores optio eos sint architecto neque. Ab cumque voluptates quidem sit.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="main_footer">
+
+
+        <!-- -------------------------CONTACT SECTION------------------------- -->
+        <div class="mainContact">
+            <div class="contact-title">
+                <h1>Contact me</h1>
+                <p>get in touch</p>
+            </div>
+            <div class="contact-desc">
+                <div class="get-touch">
+                    <h2>Get in Touch</h2>
+                    <p>Lorem Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Magnam neque commodi omnis. Rem, adipisci quia?</p>
+                    <div class="easy-contact">
+                        <div class="allcont">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="names">
+                                <h3>Name</h3>
+                                <p>Sumon Hossain</p>
+                            </div>
+                        </div>
+                        <div class="allcont">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="names">
+                                <h3>Address</h3>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="allcont">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="names">
+                                <h3>Email</h3>
+                                <p>abc@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <h2>Message me</h2>
+                    <div class="input">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <input type="text" placeholder="Subject"><br>
+                    <input type="text" placeholder="Message"><br>
+                    <a href=""><input type="button" placeholder="sendmessage">SendMessage</a>
+                </div>
+            </div>
+        </div>
+    
+        
+        <!-- ------------------------FOOTER SECTION--------------------------- -->
+        <div class="main_footer" id="footer">
             <div class="footer">
                 <div class="title">
                     Sumon Hossain

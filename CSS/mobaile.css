@@ -25,7 +25,7 @@
 }
 
 
-
+/* **************ABOUT************** */
 .about{
     flex-direction: column;
     
@@ -33,7 +33,9 @@
 .about .description{
     text-align: center;
 }
-.skill_div{
+
+/* ****************SKILL************** */
+.skill_div, .services{
     flex-direction: column;
     
 }
@@ -52,6 +54,18 @@
     margin-top: 50px;
     
     margin-left: 40px;
+}
+
+/* ********************CONTACT*************** */
+.mainContact .contact-desc{
+    flex-direction: column;
+}
+.mainContact .get-touch{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mainContact .message{
+    width: 100%;
 }
 
 /* **************************FOOTER************************** */
