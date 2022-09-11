@@ -1,80 +1,90 @@
 /* responsive desgin */
 
-.nav-toggler{
-    display: block;
+.nav-toggler {
+  display: block;
 }
-.header .nav{
-    width: 100%;
-    padding: 0;
-    max-height: 0px;
-    overflow: hidden;
-    visibility: hidden;
-    transition: all 0.5s ease;
+.header .nav {
+  width: 100%;
+  padding: 0;
+  max-height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  transition: all 0.5s ease;
 }
-.header .nav.open{
-    visibility: visible;
+.header .nav.open {
+  visibility: visible;
 }
-.header .nav ul{
-    padding: 12px 15px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    margin-top: 12px;
+.header .nav ul {
+  padding: 12px 15px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
 }
-.header .nav ul li{
-    display: block;
-    margin: 0;
+.header .nav ul li {
+  display: block;
+  margin: 0;
 }
-
 
 /* **************ABOUT************** */
-.about{
-    flex-direction: column;
-    
+.about {
+  flex-direction: column;
 }
-.about .description{
-    text-align: center;
+.about .description {
+  text-align: center;
+}
+.about .description {
+  width: 100%;
+}
+.about .description .underline {
+  margin: auto;
+  width: 40%;
 }
 
 /* ****************SKILL************** */
-.skill_div, .services{
-    flex-direction: column;
-    
+.skill_div,
+.services {
+  flex-direction: column;
 }
-.about .description .underline{
-    margin: auto;
-    width: 40%;
+
+/* ********************BANNER****************** */
+.search input {
+  display: none;
 }
-.search input{
-    display: none;
+.search2 {
+  display: block;
+  text-align: center;
 }
-.search2{
-    display: block;
-    text-align: center;
+.bg_img .banner-text {
+  margin-top: 50px;
+
+  margin-left: 40px;
 }
-.bg_img .banner-text{
-    margin-top: 50px;
-    
-    margin-left: 40px;
+
+/* *********************SERVICE******************** */
+.service .services .servicebox {
+  width: 90%;
 }
 
 /* ********************CONTACT*************** */
-.mainContact .contact-desc{
-    flex-direction: column;
+.mainContact .contact-desc {
+  flex-direction: column;
 }
-.mainContact .get-touch{
-    width: 100%;
-    margin-bottom: 20px;
+.mainContact .get-touch {
+  width: 100%;
+  margin-bottom: 20px;
 }
-.mainContact .message{
-    width: 100%;
+.mainContact .message {
+  width: 100%;
+  margin-left: 30px;
 }
 
 /* **************************FOOTER************************** */
-.footer{
-    flex-direction: column;
+.footer {
+  flex-direction: column;
+  width: 100%;
 }
-.footer .title{
-    margin-bottom: 2rem;
+.footer .title {
+  margin-bottom: 2rem;
 }
-.footer .help{
-    margin-bottom: 2rem;
+.footer .help {
+  margin-bottom: 2rem;
 }
