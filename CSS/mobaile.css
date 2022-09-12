@@ -23,8 +23,12 @@
   display: block;
   margin: 0;
 }
+/* BANNER START */
+.bg_img .banner-text .text-2 {
+  font-size: 50px;
+}
 
-/* **************ABOUT************** */
+/* **************ABOUT START************** */
 .about {
   flex-direction: column;
 }

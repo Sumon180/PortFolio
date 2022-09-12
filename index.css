@@ -55,15 +55,16 @@ body {
 /* **************************BANNER********************** */
 .bg_img {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   width: 100%;
-  /* background-image: url('images/features-2.svg'); */
-  /* height: 100vh; */
-  /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
+  background-image: url("images/bgpic.jpg");
+  height: 100vh;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .bg_img .banner-text {
@@ -75,17 +76,32 @@ body {
   margin-top: 200px;
   font-size: 2.5rem;
   margin-left: 10rem;
+  padding: 50px 0;
   display: inline-block;
 }
-.bg_img .banner-text .text3 {
+.bg_img .banner-text .text-1 {
   color: var(--color-primary);
-  font-size: 2rem;
+  font-size: 20px;
+  font-weight: 500;
 }
-.bg_img .banner-text .name {
+.bg_img .banner-text .text-2 {
+  color: #fff;
+  font-size: 75px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.bg_img .banner-text .text-3 {
   color: var(--color-primary);
+  font-size: 30px;
+  font-weight: 500;
+}
+.bg_img .banner-text .text-3 span {
+  color: crimson;
+  font-size: 30px;
 }
 .bg_img .banner-text input {
-  padding: 5px 10px;
+  padding: 5px 25px;
+  margin-top: 20px;
   background-color: var(--color-warning);
   border-radius: 3px;
   font-size: 1.5rem;
@@ -184,9 +200,15 @@ a {
 
 /* header */
 .header {
-  background-color: rgba(47, 50, 64, 0.5);
-  padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 21;
   line-height: 1.5;
+  transition: all 0.3s;
+}
+.header.sticky {
+  background-color: rgba(47, 50, 64, 0.7);
+  padding: 12px 0;
 }
 
 .header .logo,
