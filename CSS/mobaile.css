@@ -27,7 +27,9 @@
 .bg_img .banner-text .text-2 {
   font-size: 50px;
 }
-
+.bg_img .banner-text .text-3 {
+  font-size: 30px;
+}
 /* **************ABOUT START************** */
 .about {
   flex-direction: column;

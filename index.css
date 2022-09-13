@@ -75,13 +75,13 @@ body {
   color: var(--color-white);
   margin-top: 200px;
   font-size: 2.5rem;
-  margin-left: 10rem;
+  margin-left: 8.5rem;
   padding: 50px 0;
   display: inline-block;
 }
 .bg_img .banner-text .text-1 {
   color: var(--color-primary);
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 500;
 }
 .bg_img .banner-text .text-2 {
@@ -92,7 +92,7 @@ body {
 }
 .bg_img .banner-text .text-3 {
   color: var(--color-primary);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
 }
 .bg_img .banner-text .text-3 span {
@@ -100,7 +100,7 @@ body {
   font-size: 30px;
 }
 .bg_img .banner-text input {
-  padding: 5px 25px;
+  padding: 12px 36px;
   margin-top: 20px;
   background-color: var(--color-warning);
   border-radius: 3px;
@@ -203,6 +203,7 @@ a {
   position: fixed;
   width: 100%;
   z-index: 21;
+  padding: 20px 0;
   line-height: 1.5;
   transition: all 0.3s;
 }
@@ -338,7 +339,7 @@ a {
 }
 .about .description button {
   margin: 20px 0;
-  padding: 5px 10px;
+  padding: 10px 30px;
   font-size: 15px;
   font-weight: bold;
   background: none;
@@ -605,8 +606,8 @@ a {
   resize: none;
 }
 .mainContact .message button {
-  background: var(--color-primary);
-  padding: 7px 10px;
+  border: 2px solid var(--color-primary);
+  padding: 10px 30px;
   font-size: 17px;
   font-weight: bold;
   margin-top: 10px;
@@ -617,6 +618,7 @@ a {
 }
 .mainContact .message button:hover {
   color: #fff;
+  background: var(--color-primary);
 }
 
 /* ****************************FOOTER START*********************** */
